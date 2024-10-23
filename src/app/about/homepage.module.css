@@ -1,0 +1,31 @@
+/* HomePage.module.css */
+
+
+
+
+.body{
+    background-color: rgb(75, 5, 116);
+    align-items: center;
+}
+
+
+.container {
+    background-color:#433878;
+    padding: 20px;
+    color: rgb(252, 248, 248);
+    font-size: larger;
+    color: #FFE1FF;
+}
+
+.title {
+    color: #EE66A6;
+    font-size: 2rem;
+    background-color: #000;
+    border: dashed;
+    border-radius: 20px;
+    text-align: center;
+}
+.span{
+    text-decoration: dashed;
+    color: aqua;
+}
