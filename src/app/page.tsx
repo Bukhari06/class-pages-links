@@ -7,7 +7,6 @@ import styles from '../app/About/homepage.module.css';
 
 
 
-
 const HomePage = () => {
     return (
         <div className={styles.container}>
@@ -15,9 +14,11 @@ const HomePage = () => {
 <div className='MyIntro'>
 Hêllð £rïêñÐ§ ï†§ mê Rµkh§åñå Jåßßår</div>
 <br />
-            <h1 className={styles.title}>𝕋𝕙𝕚𝕤 𝕚𝕤 𝕄𝕪 ℕ𝕖𝕩𝕥 𝕁𝕤 𝕎𝕖𝕓𝕊𝕚𝕥𝕖</h1>
+            <h1 className={styles.title}>𝕋𝕙𝕚𝕤 𝕚𝕤 𝕄𝕪 ℕ𝕖𝕩𝕥.𝕁𝕤 𝕎𝕖𝕓𝕊𝕚𝕥𝕖<p className='text-cyan-500'>ᵢ'ᵥₑ cᵣₑₐₜₑd ₜₕᵢₛ wₑb₋ₛᵢₜₑ wᵢₜₕ ₘᵤcₕ ₕₐᵣd wₒᵣₖ ₐₙd ₛₜᵣᵢᵥₑ, ₐₙd ᵢₜ gᵢᵥₑₛ gᵣₑₐₜ ₕₐₚₚᵢₙₑₛₛ ₜₒ ₘₑ ₜₒ ₕₐᵥₑ ₘₐₖₑ ᵢₜ ₜₒ ᵢₜₛ cₒₘₚₗₑₜᵢₒₙ, bᵤₜ ₛₜᵢₗₗ ₜₕₑᵣₑ ᵢₛ ₗᵢₙgₑᵣᵢₙg ₘₑₘₒᵣy ₒf ₜₒᵤgₕₙₑₛₛ ᵢₜ ₜₒₒₖ ₜₒ bₑ cᵣₑₐₜₑd.</p>
+                
+            </h1>
             <br />
-            
+            <div className='bg'></div>
 
                 <br />
             <ul className='Rukh'>
@@ -26,12 +27,6 @@ Hêllð £rïêñÐ§ ï†§ mê Rµkh§åñå Jåßßår</div>
                 <li className={styles.navItem}><Link href="/services">Services</Link></li>
                 <li className={styles.navItem}><Link href="/contact">Contact</Link></li>
                 </ul>
-
-    
-
-            
-          
-
                 
         </div>
 

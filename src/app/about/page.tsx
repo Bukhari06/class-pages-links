@@ -12,16 +12,23 @@ const AboutPage = () => {
                         <p>Hêllð £rïêñÐ§ ï†§ mê Rµkh§åñå Jåßßår.</p>
                         <br />
 
+                        <h1 className={styles.title}>About Me</h1>
+                        <br />
+
                         <h2> I am web developer and  designer,</h2>
                         <p>I am learning AI Artificial Intelligence,</p>
                         <p>at Sindh governore house .... </p>
                         <p> My Class Teacher is <span className='text-yellow-200'><pre>sir Hamza Alvi</pre></span></p>
                         <br />
-            <h1 className={styles.title}>About Us</h1>
-<br />
 
 
-<button><Link href= '/'>HomePage</Link></button>
+                        <br />
+            <ul className='Rukh'>
+                <li className={styles.navItem}><Link href="/">Home</Link></li>
+                <li className={styles.navItem}><Link href="/about">About</Link></li>
+                <li className={styles.navItem}><Link href="/services">Services</Link></li>
+                <li className={styles.navItem}><Link href="/contact">Contact</Link></li>
+                </ul>
         
         </div>
     );
