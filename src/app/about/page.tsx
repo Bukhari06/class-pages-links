@@ -16,9 +16,9 @@ const AboutPage = () => {
                         <br />
 
                         <h2> I am web developer and  designer,</h2>
-                        <p>I am learning AI Artificial Intelligence,</p>
-                        <p>at Sindh governore house .... </p>
-                        <p> My Class Teacher is <span className='text-yellow-200'><pre>sir Hamza Alvi</pre></span></p>
+                        <>I am learning AI Artificial Intelligence,</>
+                        <>at Sindh governore house .... </>
+                        <> My Class Teacher is <span className='text-yellow-200'><pre>sir Hamza Alvi</pre></span></>
                         <br />
 
 

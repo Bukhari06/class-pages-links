@@ -16,12 +16,12 @@ const ServicesPage = () => {
             <h1 className={styles.title}> 𝕊𝕖𝕣𝕧𝕚𝕔𝕖𝕤</h1>
         <br />
 <h1>Dear  we are here for your help  , 
-    <p>
-    if u have any kind of problem feel free,</p>
-    <p>to ask about that, we can even provide </p>
-    <p>you all classes' syllabus notes,  </p>
-    <p>Thank you for visiting 
-        <div className="text-pink-500">𝓂𝓎 𝓌𝑒𝒷𝓈𝒾𝓉𝑒</div></p> 
+    <>
+    if u have any kind of problem feel free,</>
+    <>to ask about that, we can even provide </>
+    <>you all classes' syllabus notes,  </>
+    <>Thank you for visiting 
+        <div className="text-pink-500">𝓂𝓎 𝓌𝑒𝒷𝓈𝒾𝓉𝑒</div></> 
 </h1>
 <br />
             <ul className='Rukh'>
